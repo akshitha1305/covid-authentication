@@ -1,10 +1,7 @@
-POST http://localhost:3000/users/
+POST http://localhost:3000/login/
 Content-Type: application/json;
 
 {
-    "username": "rahul12",
-    "name": "rahul",
-    "password": "1234567",
-    "gender": "male",
-    "location": "korea"
+  "username": "christopher_phillips",
+  "password": "christy@123"
 }
