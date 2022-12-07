@@ -45,6 +45,7 @@ app.post("/users/", async (request, response) => {
         )`;
     const dbResponse = await db.run(createUserQuery);
     const newUserId = dbResponse.lastID;
+
     response.send(`Created new user with ${newUserId}`);
   } else {
     response.status = 400;
